@@ -19,7 +19,7 @@ export default function SliderBanner(){
         <img src={google} alt='google_left' class="google_left slider_image" />
         <img src={linkdin} alt='linkdin' class="linkdin slider_image" />
         <img src={banner_head_txt} alt='banner_head_txt' class="banner_head_txt slider_image" />
-        <p class="slider_image banner_subtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="slider_image banner_subtxt">Test ankita Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="button banner_button">
           <button type='button' class="btn btn_secondary signup">Create Account</button>
           <button type='button' class="btn btn_primary explore_job_page">Expolre Job Page</button>
