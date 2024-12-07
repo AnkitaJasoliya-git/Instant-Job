@@ -1,0 +1,62 @@
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar .inner_navbar {
+  display: contents;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+.navbar .menu a {
+  color: var(--link-color);
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+.navbar .menu a:hover {
+  color: var(--secondary-color);
+}
+.navbar .menu a:active {
+  color: var(--secondary-color);
+}
+
+.navbar .buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .buttons .btn {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+/* .navbar .buttons .signin {
+  background-color: transparent;
+  color: var(--link-color);
+  border: 1px solid var(--link-color);
+}
+.navbar .buttons .signin:hover {
+  background-color: var(--secondary-color);
+  color: var(--link-color);
+}
+.navbar .buttons .get-started {
+  background-color: var(--secondary-color);
+  color: var(--link-color);
+  border: 1px solid transparent;
+}
+.navbar .buttons .get-started:hover {
+  background-color: transparent;
+  border: 1px solid var(--link-color);
+} */

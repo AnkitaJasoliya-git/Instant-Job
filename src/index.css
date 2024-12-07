@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #080092; /* Deep blue for primary branding */
+  --secondary-color: #F68B42; /* Vibrant orange for secondary branding */
+  --background-color: #F5F5F5; /* White for general background */
+  --section-background-color: #F0EFF6; /* section background color */
+  --text-color: #2A2A31; /* Black for primary text */
+  --heading-color: #2A2A31; /* Dark gray for headings */
+  --link-color: #FFFFFF; /* Blue for links */
+  --hover-color: #F68B42; /* Orange for hover effects */
+  --border-color: #FFFFFF; /* border color  */
+  --primary-button-bg: #F68B42; /* Button background color */
+  --secondary-button-bg: #080092; /* Button hover background color */
+  --button-text: #FFFFFF; /* Button text color */
+  --heading-title-text: #9F1F63; /* slider main text */
+  --input-border: #E2E2E2; /* Border color for inputs */
+  --sliderbanner-bg-color: #DBD9FF; 
+
+  font-family: "Poppins", serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+button {
+  padding: 11px 25px;
+  border-radius: 6px;
+  letter-spacing: 0.6px;
+}
+.btn_primary {
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color);
+  color: var(--heading-title-text);
+  transition: 0.5s;
+}
+.btn_primary:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--link-color);
+  transition: 0.5s;
+}
+.btn_secondary {
+  background: var(--secondary-color) 0% 0% no-repeat padding-box;
+  color: var(--link-color);
+  border: 1px solid var(--secondary-color);
+  transition: 0.5s;
+}
+.btn_secondary:hover {
+  border: 1px solid var(--link-color);
+  background-color: transparent;
+  color: var(--link-color);
+  transition: 0.5s;
+}
+.btn_transparent {
+  background-color: transparent;
+  color: var(--link-color);
+  border: 1px solid var(--link-color);
+  transition: 0.5s;
+}
+.btn_transparent:hover {
+  background-color: var(--secondary-color);
+  color: var(--link-color);
+  border: 1px solid var(--secondary-color);
+  transition: 0.5s;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
